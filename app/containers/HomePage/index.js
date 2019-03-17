@@ -11,11 +11,20 @@
 
 import React from 'react';
 import Navigation from 'components/Navigation';
+import Skills from 'components/Skills';
+
+import Container from 'react-bootstrap/Container';
 
 export default function HomePage(){
   return (
     <div className='Application'>
-      <Navigation />
+      <Container>
+        <Navigation />
+      </Container>
+      <Container>
+        <Skills />
+      </Container>
+
     </div>
   );
 }

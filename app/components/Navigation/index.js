@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Container from 'react-bootstrap/Container';
 
-function Navigation(){
+export default function Navigation(){
   return (
     <Container bg="light">
       <Navbar expand="lg">
@@ -23,6 +23,3 @@ function Navigation(){
     </Container>
   )
 }
-
-
-export default Navigation;
