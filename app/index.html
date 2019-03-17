@@ -4,7 +4,7 @@
 <head>
   <!-- The first thing in any HTML file should be the charset -->
   <meta charset="utf-8">
-
+  <title>joshuaho.me</title>
   <!-- Make the page mobile compatible -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,7 +12,9 @@
   <meta name="mobile-web-app-capable" content="yes">
 
   <link rel="icon" href="/favicon.ico" />
-  <title>joshuaho.me</title>
+  
+
+  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@14/dist/smooth-scroll.polyfills.min.js"></script>
   <link
     rel="stylesheet"
     href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
@@ -31,5 +33,9 @@
   <div id="app"></div>
   <!-- A lot of magic happens in this file. HtmlWebpackPlugin automatically injects all assets (e.g. bundle.js, main.css) with the correct HTML tags, which is why they are missing in this file. Don't add any assets here! (Check out webpack.dev.babel.js and webpack.prod.babel.js if you want to know more) -->
 </body>
-
+<footer>
+  <script>
+	  var scroll = new SmoothScroll('a[href*="#"]');
+  </script>
+</footer>
 </html>
