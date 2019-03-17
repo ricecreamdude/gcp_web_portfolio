@@ -15,7 +15,7 @@ import Navigation from 'components/Navigation';
 export default function HomePage(){
   return (
     <div className='Application'>
-      <Navigation text="Hello I am a header" />
+      <Navigation />
     </div>
   );
 }
