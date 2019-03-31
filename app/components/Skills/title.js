@@ -1,26 +1,13 @@
 /* Title for Skills component Display */
 
-import React from 'react';
-import Container from 'react-bootstrap/Container';
+import styled from 'styled-components';
 
-// export default function Title(props){
-//   return (
-//     <Container>
-//       {this.props.text}
-//     </Container>
-//   )
-// }
+const Title = styled.div`
+  width: 100px;
+  font-size: 24px;
+  border-bottom: 4px black solid;
+  text-align: center;
+  margin: 0px auto;
+`;
 
-
-class Title extends React.Component{
-  render(){
-    return (
-      <Container>
-        {this.props.text}
-      </Container>
-    )
-  }
-}
-
-
-export default Title;
+export default Title
