@@ -71,7 +71,7 @@ export default function Skills(){
           </Container>
         </Col>
         <Col xs={12} md={4} style={styles.skillsCol}>
-          <Title>Frameworks and Tools</Title>
+          <Title>Frameworks/Tools</Title>
           <Container style={styles.iconContainer}>
             <Logo source={logoReact} />
             <Logo source={logoNode} />
@@ -90,7 +90,6 @@ export default function Skills(){
           </Container>
         </Col>
       </Row>
-
     </Container>
   )
 }
