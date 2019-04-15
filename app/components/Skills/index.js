@@ -58,29 +58,28 @@ export default function Skills(){
         <Col xs={12} md={4} style={styles.skillsCol}>
           <Title style={styles.skillsTitle}>Code</Title>
           <Container style={styles.iconContainer}>
-            <Logo source={logoHtml} />
-            <Logo source={logoCss} />
-            <Logo source={logoJs} />
-
+            <Logo source={logoHtml} toolTipText='HTML5' />
+            <Logo source={logoCss} toolTipText='CSS3'/>
+            <Logo source={logoJs} toolTipText='JavaScript'/>
           </Container>
         </Col>
         <Col xs={12} md={4} style={styles.skillsCol}>
           <Title>Frameworks/Tools</Title>
           <Container style={styles.iconContainer}>
-            <Logo source={logoReact} />
-            <Logo source={logoNode} />
-            <Logo source={logoNpm} />
-            <Logo source={logoGithub} />
+            <Logo source={logoReact} toolTipText='JavaScript' />
+            <Logo source={logoNode} toolTipText='Node.js'/>
+            <Logo source={logoNpm} toolTipText='NPM'/>
+            <Logo source={logoGithub} toolTipText='Github' />
           </Container>
         </Col>
         <Col xs={12} md={4} style={styles.skillsCol}>
           <Title>Business</Title>
           <Container style={styles.iconContainer}>
-            <Logo source={logoExcel} />
-            <Logo source={logoOutlook} />
-            <Logo source={logoWord} />
-            <Logo source={logoGTM} />
-            <Logo source={logoGA} />
+            <Logo source={logoGTM} toolTipText='Google Tag Manager' />
+            <Logo source={logoGA} toolTipText='Google Analytics'/>
+            <Logo source={logoExcel} toolTipText='MS Excel' />
+            <Logo source={logoOutlook} toolTipText='MS Outlook' />
+            <Logo source={logoWord} toolTipText='MS Word' />
           </Container>
         </Col>
       </Row>

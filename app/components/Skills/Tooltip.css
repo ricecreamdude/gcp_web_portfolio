@@ -1,0 +1,10 @@
+.tooltip{
+  /* position: relative; */
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+
+.tooltip-text{
+  position: absolute;
+}
