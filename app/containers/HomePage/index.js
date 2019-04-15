@@ -12,6 +12,7 @@
 import React from 'react';
 import Navigation from 'components/Navigation';
 import Skills from 'components/Skills';
+import Portfolio from 'components/Portfolio';
 
 import Container from 'react-bootstrap/Container';
 
@@ -23,6 +24,9 @@ export default function HomePage(){
       </Container>
       <Container>
         <Skills />
+      </Container>
+      <Container>
+        <Portfolio />
       </Container>
 
     </div>

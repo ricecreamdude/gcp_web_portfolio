@@ -28,10 +28,6 @@ import logoOutlook from 'images/outlook-logo.png';
 import Title from './title';
 import Logo from './skillLogo';
 
-
-
-
-
 export default function Skills(){
 
   const styles = {
@@ -52,8 +48,6 @@ export default function Skills(){
       padding: '0 25px',
       margin: '20px 0 40px 0',
     },
-
-
 
   }
 
