@@ -64,16 +64,16 @@ export default function Skills(){
           </Container>
         </Col>
         <Col xs={12} md={4} style={styles.skillsCol}>
-          <Title>Frameworks/Tools</Title>
+          <Title style={styles.skillsTitle}>Frameworks/Tools</Title>
           <Container style={styles.iconContainer}>
-            <Logo source={logoReact} toolTipText='JavaScript' />
+            <Logo source={logoReact} toolTipText='React.js' />
             <Logo source={logoNode} toolTipText='Node.js'/>
             <Logo source={logoNpm} toolTipText='NPM'/>
             <Logo source={logoGithub} toolTipText='Github' />
           </Container>
         </Col>
         <Col xs={12} md={4} style={styles.skillsCol}>
-          <Title>Business</Title>
+          <Title style={styles.skillsTitle}>Business</Title>
           <Container style={styles.iconContainer}>
             <Logo source={logoGTM} toolTipText='Google Tag Manager' />
             <Logo source={logoGA} toolTipText='Google Analytics'/>

@@ -1,10 +1,30 @@
-.tooltip{
-  /* position: relative; */
-  margin: 0px;
-  padding: 0px;
-  float: left;
+.tooltip-bubble{
+  min-width: 100px;
+  max-width: 100px;
+  position: absolute;
+  z-index: 10;
+  color: white;
+  background-color: black;
+  border-radius: 3px;
+  left: 50%;
+  margin-left: -50px;
+  padding: 2px;
 }
 
+/* .tooltip-bubble::after{
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  border-bottom: 9px solid black;
+  top: 0; 
+  left: 50%; 
+  transform: translateX(-50%); 
+}*/
+
 .tooltip-text{
-  position: absolute;
+  background: black;
+  border-radius: 3px;
+  color: white;
+  font-size: .85rem;
+  line-height: 1.1;
+  text-align: center;
 }
