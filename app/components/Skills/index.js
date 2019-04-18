@@ -15,10 +15,12 @@ import logoJs from 'images/JavaScript-logo.png';
 import logoCss from 'images/CSS-Logo.png';
 import logoNode from 'images/nodejs-logo.png';
 import logoNpm from 'images/npm-logo.png';
+import logoWordpress from 'images/wordpress-logo1.png';
+import logoBootstrap from 'images/bootstrap-logo.png';
 
 /* Analytics Logos */
-import logoGA from 'images/ga_logo.png';
-import logoGTM from 'images/tag-manager-logo.png'; 
+import logoGA from 'images/ga_logo_150x150.png';
+import logoGTM from 'images/tag-manager-logo_150x150.png'; 
 import logoExcel from 'images/excel-logo.png';
 import logoWord from 'images/word-logo.png';
 import logoOutlook from 'images/outlook-logo.png';
@@ -53,7 +55,7 @@ export default function Skills(){
 
   return (
     <Container>
-      <div className='sectionTitle' style={styles.sectionTitle}>What I Can Do</div>
+      <div className='sectionTitle' style={styles.sectionTitle}>My Skills</div>
       <Row>
         <Col xs={12} md={4} style={styles.skillsCol}>
           <Title style={styles.skillsTitle}>Code</Title>
@@ -70,6 +72,8 @@ export default function Skills(){
             <Logo source={logoNode} toolTipText='Node.js'/>
             <Logo source={logoNpm} toolTipText='NPM'/>
             <Logo source={logoGithub} toolTipText='Github' />
+            <Logo source={logoBootstrap} toolTipText='Bootstrap' />
+            <Logo source={logoWordpress} toolTipText='WordPress' />
           </Container>
         </Col>
         <Col xs={12} md={4} style={styles.skillsCol}>
