@@ -1,0 +1,40 @@
+.project-card-wrapper{
+  border-radius: 3px;
+}
+
+.project-card{
+  /* width: 400px; */
+  height: 425px;
+  border: 1px solid gray;
+
+}
+
+.project-card-front{}
+
+.project-details{
+
+}
+
+.back-footer{
+  border-top: 1px solid #ECECEC;
+}
+.project-details h3{
+  padding: 15px 20px;
+}
+
+.project-details div{
+  padding: 0 20px;
+}
+
+.project-card-back{
+
+}
+
+.project-card-back h3{
+  padding: 15px 20px;
+
+}
+.back-details{
+  height: 250px;
+  padding-right: 20px;
+}

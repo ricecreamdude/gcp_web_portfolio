@@ -2,8 +2,6 @@ import React from 'react';
 import Image from 'react-bootstrap/Image'
 
 import './Tooltip.css';
-import { relative } from 'path';
-
 
 class Logo extends React.Component{
 

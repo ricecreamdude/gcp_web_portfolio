@@ -20,17 +20,18 @@ export default function Portfolio(){
       <Row>
         <Col md={4} xs={12}>
           <Project 
-            source={thumbPace}
+            image={thumbPace}
+            src='https://www.autoprintllc.com/'
           />
         </Col>
         <Col md={4} xs={12}>
           <Project 
-            source={thumbBowyer} 
+            image={thumbBowyer} 
           />
         </Col>
         <Col md={4} xs={12}>
           <Project 
-            source={thumbEarth} 
+            image={thumbEarth} 
           />
         </Col>
       </Row>
