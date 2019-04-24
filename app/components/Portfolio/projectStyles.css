@@ -9,7 +9,9 @@
 
 }
 
-.project-card-front{}
+.project-card-front{
+  position: relative;
+}
 
 .project-details{
 
@@ -27,7 +29,8 @@
 }
 
 .project-card-back{
-
+  /* visibility: hidden; */
+  /* position: absolute; */
 }
 
 .project-card-back h3{

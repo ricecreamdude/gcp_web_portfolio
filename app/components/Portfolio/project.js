@@ -1,6 +1,5 @@
 import React from 'react';
 
-
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -53,6 +52,7 @@ class Project extends React.Component{
             </div>          
           </div>
         </div>
+        
         <div className="project-card project-card-back">
           <h3>Features</h3>
           <div className="back-details">
@@ -73,11 +73,9 @@ class Project extends React.Component{
             <div style={styles.iconPlaceholder}>ICON</div><Image />            
           </div>
         </div>
-
       </div>
     )
   }
-  
 }
 
 export default Project;
